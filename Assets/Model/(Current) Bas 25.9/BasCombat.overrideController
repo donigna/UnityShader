@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BasCombat
+  m_Controller: {fileID: 9100000, guid: 66ec465293f84aa44aad4bcf7c0883bf, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 8124364083101516865, guid: 5c71760b0c09f2f449081e7dd0396c76,
+      type: 3}
+    m_OverrideClip: {fileID: -3182497565773978399, guid: 5c71760b0c09f2f449081e7dd0396c76,
+      type: 3}

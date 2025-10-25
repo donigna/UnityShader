@@ -1,0 +1,842 @@
+fileFormatVersion: 2
+guid: 5c71760b0c09f2f449081e7dd0396c76
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Bas Armature|Bas | a. Idle' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Eyelash mov'
+      has translation animation that will be discarded.\n\t'Eyelash2.L' has translation
+      animation that will be discarded.\n\t'Eyelash2.R' has translation animation
+      that will be discarded.\n\nClip 'Bas Armature|Bas | Chop' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'Eyelash2.L'
+      has translation animation that will be discarded.\n\t'Eyelash2.R' has translation
+      animation that will be discarded.\n\t'Foot.R' has scale animation that will
+      be discarded.\n\nClip 'Bas Armature|Bas | GH1' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Eyelash mov' has translation
+      animation that will be discarded.\n\t'Eyelash2.L' has translation animation
+      that will be discarded.\n\t'Eyelash2.R' has translation animation that will
+      be discarded.\n\t'Leg1.L' has scale animation that will be discarded.\n\t'Foot.L'
+      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | PD1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Eyelash
+      mov' has translation animation that will be discarded.\n\t'Eyelash2.L' has
+      translation animation that will be discarded.\n\t'Eyelash2.R' has translation
+      animation that will be discarded.\n\t'Leg1.L' has scale animation that will
+      be discarded.\n\t'Leg2.L' has scale animation that will be discarded.\n\t'Foot.L'
+      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
+      that will be discarded.\n\t'Leg2.R' has scale animation that will be discarded.\n\t'Foot.R'
+      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | Run'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Leg1.L'
+      has scale animation that will be discarded.\n\t'Leg2.L' has scale animation
+      that will be discarded.\n\t'Foot.L' has scale animation that will be discarded.\n\t'Leg1.R'
+      has scale animation that will be discarded.\n\t'Leg2.R' has scale animation
+      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
+      'Bas Armature|Bas | Run w Katana' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Chest' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Leg1.L' has scale animation that will
+      be discarded.\n\t'Leg2.L' has scale animation that will be discarded.\n\t'Foot.L'
+      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
+      that will be discarded.\n\t'Leg2.R' has scale animation that will be discarded.\n\t'Foot.R'
+      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | S1C1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Eyelash
+      mov' has translation animation that will be discarded.\n\t'Eyelash2.L' has
+      translation animation that will be discarded.\n\t'Eyelash2.R' has translation
+      animation that will be discarded.\n\t'Leg1.L' has scale animation that will
+      be discarded.\n\t'Leg2.L' has scale animation that will be discarded.\n\t'Foot.L'
+      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
+      that will be discarded.\n\t'Leg2.R' has scale animation that will be discarded.\n\t'Foot.R'
+      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | S1C2'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Leg1.L'
+      has scale animation that will be discarded.\n\t'Leg2.L' has scale animation
+      that will be discarded.\n\t'Foot.L' has scale animation that will be discarded.\n\t'Leg1.R'
+      has scale animation that will be discarded.\n\t'Leg2.R' has scale animation
+      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
+      'Bas Armature|Bas | S1C3' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Leg2.L'
+      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
+      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
+      'Bas Armature|Bas | Watering' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'Chest' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bas Armature|Bas | a. Idle
+      takeName: Bas Armature|Bas | a. Idle
+      internalID: 5533623685499115042
+      firstFrame: 0
+      lastFrame: 999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | Chop
+      takeName: Bas Armature|Bas | Chop
+      internalID: -1842084774035350739
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | GH1
+      takeName: Bas Armature|Bas | GH1
+      internalID: -6125140863221229098
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | PD1
+      takeName: Bas Armature|Bas | PD1
+      internalID: -2405928371248997335
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | Run
+      takeName: Bas Armature|Bas | Run
+      internalID: 8124364083101516865
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | Run w Katana
+      takeName: Bas Armature|Bas | Run w Katana
+      internalID: -3182497565773978399
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | S1C1
+      takeName: Bas Armature|Bas | S1C1
+      internalID: 5922718953633678997
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | S1C2
+      takeName: Bas Armature|Bas | S1C2
+      internalID: -7360586104580781965
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | S1C3
+      takeName: Bas Armature|Bas | S1C3
+      internalID: 8373445442201238207
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bas Armature|Bas | Watering
+      takeName: Bas Armature|Bas | Watering
+      internalID: -2205329715295849291
+      firstFrame: 0
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Bas Rework(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bas Armature
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: 5.302452e-33, z: 5.302451e-33, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Root
+      parentName: Bas Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0.00000003090862, z: 0.00000003090863, w: 0.7071068}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Cloack Main Control
+      parentName: Root
+      position: {x: -0.00016744429, y: 0.004312148, z: -0.002837682}
+      rotation: {x: -0.70710677, y: 0.0000000842937, z: -0.0000000842937, w: 0.7071069}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: Toe.R
+      parentName: Root
+      position: {x: 0.0014746531, y: -5.820766e-13, z: 0.00073456427}
+      rotation: {x: 0.70706916, y: -0.007299508, z: -0.007299508, w: 0.70706916}
+      scale: {x: 0.99999964, y: 1.0000006, z: 1.0000015}
+    - name: Toe Pivot.R
+      parentName: Toe.R
+      position: {x: -6.5180694e-11, y: 1.8628222e-11, z: 2.9102588e-12}
+      rotation: {x: -0.70695615, y: -0.000000033061948, z: 0.014598271, w: 0.7071068}
+      scale: {x: 1.0000002, y: 0.9999996, z: 0.99999994}
+    - name: Foot IK.R
+      parentName: Toe Pivot.R
+      position: {x: -0.000018922172, y: 0.0009454212, z: -0.0009163622}
+      rotation: {x: 0.9266201, y: 0.0000000040383186, z: -0.019134268, w: 0.37551177}
+      scale: {x: 0.99999964, y: 1.0000025, z: 1.0000031}
+    - name: Target Leg.R
+      parentName: Toe.R
+      position: {x: -0.00008997914, y: 0.0015330102, z: -0.004357463}
+      rotation: {x: 0.000000006751773, y: 0.9999467, z: 0.00000008940696, w: -0.010323062}
+      scale: {x: 1.0000013, y: 0.9999998, z: 0.99999875}
+    - name: Toe.L
+      parentName: Root
+      position: {x: -0.0024763686, y: -2.3283064e-12, z: 0.00073456427}
+      rotation: {x: 0.70706916, y: 0.007299507, z: 0.007299507, w: 0.70706916}
+      scale: {x: 1, y: 1.0000008, z: 1.0000008}
+    - name: Toe Pivot.L
+      parentName: Toe.L
+      position: {x: 1.8621765e-10, y: -7.449512e-11, z: -1.4556875e-12}
+      rotation: {x: -0.70695615, y: 0.000000009313225, z: -0.014598244, w: 0.7071068}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.0000006}
+    - name: Foot IK.L
+      parentName: Toe Pivot.L
+      position: {x: 0.000018922354, y: 0.00094542134, z: -0.0009163624}
+      rotation: {x: 0.9266201, y: 0.000000019652234, z: 0.019134236, w: 0.37551177}
+      scale: {x: 0.99999946, y: 1.0000033, z: 1.0000026}
+    - name: Target Leg.L
+      parentName: Toe.L
+      position: {x: 0.0000899792, y: 0.0015330103, z: -0.0043574637}
+      rotation: {x: -0.000000024213154, y: 0.9999467, z: 0.00000008940696, w: 0.010323061}
+      scale: {x: 1.0000018, y: 1.0000004, z: 1}
+    - name: body control
+      parentName: Root
+      position: {x: 0.0000479763, y: 0.00619963, z: 0.000022020768}
+      rotation: {x: -0.0000004172325, y: -0, z: -7.2759576e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck Control
+      parentName: body control
+      position: {x: -0.0000034615118, y: 0.0064213346, z: 0.0000000049662594}
+      rotation: {x: 0.7071071, y: -0.00000005247775, z: -0.000000052477798, w: 0.70710653}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999995}
+    - name: Head Control
+      parentName: body control
+      position: {x: 0.00019497712, y: 0.009803591, z: 0.0006987978}
+      rotation: {x: 0.70710725, y: -0.00000005260811, z: -0.000000052608144, w: 0.7071064}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.99999976}
+    - name: Facing
+      parentName: Head Control
+      position: {x: 2.5145708e-10, y: 0.0027852266, z: 0.0017362733}
+      rotation: {x: -0.00000020861623, y: 0.0000005966301, z: -2.8421706e-14, w: 1}
+      scale: {x: 1.0000001, y: 1.0000027, z: 1.0000031}
+    - name: Waist
+      parentName: body control
+      position: {x: 9.362404e-12, y: 1.9552579e-10, z: 5.734999e-13}
+      rotation: {x: -0, y: 5.3290714e-15, z: -1.7763546e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: Waist
+      position: {x: 3.730208e-11, y: 0.0012015378, z: -2.8947188e-12}
+      rotation: {x: 0.00000059604645, y: -3.1190318e-15, z: 1.6940659e-21, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: Chest
+      parentName: Body
+      position: {x: 1.867817e-11, y: 0.0029305913, z: -4.3675636e-12}
+      rotation: {x: -0.00000017881393, y: -0.00000011920929, z: 0.0000000014552644,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -2.2638494e-11, y: 0.00227719, z: -3.991303e-12}
+      rotation: {x: 0.020118026, y: 0.000000002679961, z: -0.000000005693989, w: 0.9997976}
+      scale: {x: 1.0000005, y: 0.9999992, z: 0.9999998}
+    - name: Head
+      parentName: Neck
+      position: {x: 6.286427e-11, y: 0.0010424611, z: 3.2421665e-10}
+      rotation: {x: 0.04786097, y: -9.124741e-10, z: -0.000000010328008, w: 0.99885404}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000001}
+    - name: Eye iris
+      parentName: Head
+      position: {x: 3.0733643e-10, y: 0.0008576284, z: 0.0013067469}
+      rotation: {x: 0.67245394, y: 0.0000000017154933, z: -0.00000016181353, w: 0.740139}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.000001}
+    - name: Eyelash mov
+      parentName: Head
+      position: {x: 3.678724e-10, y: 0.0011949922, z: 0.0015614621}
+      rotation: {x: 0.6724538, y: 0.0000000018549646, z: -0.00000016169675, w: 0.7401391}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.000001}
+    - name: Eyelash.L
+      parentName: Eyelash mov
+      position: {x: -0.000891193, y: -0.00025984485, z: -0.000053524072}
+      rotation: {x: 0.00000053644175, y: -8.1788354e-10, z: 3.2946475e-11, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000007}
+    - name: Eyelash.R
+      parentName: Eyelash mov
+      position: {x: 0.00089119305, y: -0.00025984514, z: -0.000053524232}
+      rotation: {x: 0.00000053644175, y: 0.00000023683644, z: 0.0000000021156124,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000007}
+    - name: Eyelash2.L
+      parentName: Head
+      position: {x: -0.0013932344, y: 0.0010796139, z: 0.0009897042}
+      rotation: {x: 0.67245424, y: 0.0000000029704132, z: -0.00000016076231, w: 0.74013877}
+      scale: {x: 1.0000011, y: 1.0000007, z: 1.0000004}
+    - name: Eyelash3.L
+      parentName: Head
+      position: {x: -0.00047207397, y: 0.0011790984, z: 0.0014431888}
+      rotation: {x: 0.67245424, y: 0.000000002761248, z: -0.00000016093753, w: 0.74013877}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000002}
+    - name: Eyelash2.R
+      parentName: Head
+      position: {x: 0.0013916723, y: 0.0011349141, z: 0.0013081494}
+      rotation: {x: 0.67245424, y: 0.000000176003, z: -6.357652e-10, w: 0.74013877}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000006}
+    - name: Eyelash3.R
+      parentName: Head
+      position: {x: 0.00046746637, y: 0.0011648871, z: 0.00144613}
+      rotation: {x: 0.67245424, y: 0.0000001781788, z: -0.000000004507979, w: 0.74013877}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000002}
+    - name: Eyebrows
+      parentName: Head
+      position: {x: 4.5169143e-10, y: 0.0017210077, z: 0.0017797514}
+      rotation: {x: 0.6574275, y: 0.000000031440536, z: -0.00000012706461, w: 0.7535179}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000005}
+    - name: Eyebrow.L
+      parentName: Head
+      position: {x: -0.0012202628, y: 0.0017373638, z: 0.0012350247}
+      rotation: {x: 0.6574274, y: 0.000000032597285, z: -0.00000013184896, w: 0.75351787}
+      scale: {x: 1.0000006, y: 0.9999976, z: 0.99999774}
+    - name: Eyebrow.R
+      parentName: Head
+      position: {x: 0.0012202633, y: 0.0017373641, z: 0.0012350244}
+      rotation: {x: 0.6574274, y: 0.00000014526675, z: -0.000000031616214, w: 0.75351787}
+      scale: {x: 1.0000006, y: 0.9999976, z: 0.99999774}
+    - name: Shoulder.L
+      parentName: Chest
+      position: {x: -0.00065657665, y: 0.0020329745, z: 1.1910792e-10}
+      rotation: {x: 0.050625622, y: -0.017170405, z: 0.80049145, w: 0.5969553}
+      scale: {x: 0.99999946, y: 1.0000008, z: 0.99999994}
+    - name: Upperarm.L
+      parentName: Shoulder.L
+      position: {x: -0.000000002916786, y: 0.0015777856, z: 6.984919e-11}
+      rotation: {x: -0.03574344, y: -0.0017346351, z: -0.10585755, w: 0.9937372}
+      scale: {x: 1.0000024, y: 1.0000019, z: 1.0000013}
+    - name: Forearm.L
+      parentName: Upperarm.L
+      position: {x: 8.381903e-11, y: 0.0022554065, z: -1.11758706e-10}
+      rotation: {x: 0.021217693, y: -0.00080138433, z: -0.0060896217, w: 0.9997561}
+      scale: {x: 1.0000035, y: 1.0000043, z: 0.9999982}
+    - name: Palm.L
+      parentName: Forearm.L
+      position: {x: -1.8626451e-11, y: 0.0019855339, z: -9.3132255e-12}
+      rotation: {x: 0.020085355, y: -0.73829925, z: 0.06161716, w: -0.67135245}
+      scale: {x: 1.0000024, y: 1.000001, z: 1.0000004}
+    - name: Fingers1.L
+      parentName: Palm.L
+      position: {x: 0.00015621299, y: 0.00091977714, z: -0.00010541802}
+      rotation: {x: 0.071100265, y: 0.04114367, z: -0.046333507, w: -0.99554265}
+      scale: {x: 1.0000039, y: 1.0000029, z: 1.000002}
+    - name: Fingers2.L
+      parentName: Fingers1.L
+      position: {x: -0, y: 0.00039658204, z: 1.4901161e-10}
+      rotation: {x: -0.02429178, y: 0.024534948, z: 0.01659773, w: 0.99926597}
+      scale: {x: 1.0000017, y: 1.0000049, z: 1.000001}
+    - name: Thumb1.L
+      parentName: Palm.L
+      position: {x: -0.00054170284, y: 0.0007669787, z: -0.00007114637}
+      rotation: {x: -0.12230983, y: 0.41380355, z: -0.39203978, w: -0.81247264}
+      scale: {x: 1.000006, y: 1.0000014, z: 0.9999999}
+    - name: Thumb2.L
+      parentName: Thumb1.L
+      position: {x: 6.519258e-11, y: 0.00033180712, z: 9.313225e-11}
+      rotation: {x: -0.083988726, y: -0.054621447, z: -0.057272635, w: 0.9933188}
+      scale: {x: 1.0000066, y: 0.99999994, z: 1.0000024}
+    - name: Shoulder.R
+      parentName: Chest
+      position: {x: 0.0006565766, y: 0.0020329743, z: -1.9235825e-10}
+      rotation: {x: 0.05062543, y: 0.01717054, z: -0.80049133, w: 0.5969554}
+      scale: {x: 1.0000002, y: 1.000001, z: 0.99999994}
+    - name: Upperarm.R
+      parentName: Shoulder.R
+      position: {x: 4.1327438e-11, y: 0.0015777847, z: -9.313225e-11}
+      rotation: {x: -0.035743445, y: 0.0017347224, z: 0.10585739, w: 0.9937373}
+      scale: {x: 1.0000004, y: 1.0000013, z: 1.0000007}
+    - name: Forearm.R
+      parentName: Upperarm.R
+      position: {x: 8.1956386e-10, y: 0.0022554074, z: 4.6100465e-10}
+      rotation: {x: 0.021217648, y: 0.00080129475, z: 0.0060898596, w: 0.99975604}
+      scale: {x: 1.0000019, y: 1.0000023, z: 0.9999972}
+    - name: Palm.R
+      parentName: Forearm.R
+      position: {x: 3.7252902e-11, y: 0.0019855336, z: 8.9406965e-10}
+      rotation: {x: 0.02008556, y: 0.73829937, z: -0.061616957, w: -0.67135245}
+      scale: {x: 1.0000045, y: 1.0000025, z: 1.0000023}
+    - name: Fingers1.R
+      parentName: Palm.R
+      position: {x: -0.00005683664, y: 0.0010634173, z: 0.000042846114}
+      rotation: {x: -0.07110405, y: 0.041143943, z: -0.04633371, w: 0.9955424}
+      scale: {x: 1.0000012, y: 0.9999992, z: 0.99999934}
+    - name: Fingers2.R
+      parentName: Fingers1.R
+      position: {x: 9.313225e-11, y: 0.00039658224, z: 3.4924597e-10}
+      rotation: {x: -0.024293002, y: -0.024534866, z: -0.016597705, w: 0.99926597}
+      scale: {x: 1.0000027, y: 1.0000085, z: 1.0000038}
+    - name: Thumb1.R
+      parentName: Palm.R
+      position: {x: 0.0004423273, y: 0.0006233414, z: -0.00021940962}
+      rotation: {x: 0.122310534, y: 0.4138044, z: -0.39204204, w: 0.812471}
+      scale: {x: 0.99999964, y: 0.99999785, z: 0.9999987}
+    - name: Thumb2.R
+      parentName: Thumb1.R
+      position: {x: 1.5832484e-10, y: 0.00033180742, z: 5.5879353e-11}
+      rotation: {x: -0.08398874, y: 0.05462155, z: 0.05727269, w: 0.9933188}
+      scale: {x: 1.0000023, y: 0.9999975, z: 1.0000024}
+    - name: Cloack Back1
+      parentName: Chest
+      position: {x: -3.1712438e-10, y: 0.0021552704, z: -0.0011072153}
+      rotation: {x: 0.99581516, y: -0.00000003180518, z: -9.827795e-10, w: -0.09138989}
+      scale: {x: 1.0000005, y: 1.0000008, z: 0.99995834}
+    - name: Cloack Back2
+      parentName: Cloack Back1
+      position: {x: -1.268927e-10, y: 0.0028038423, z: -1.3533281e-11}
+      rotation: {x: -0.0000000074505797, y: 1.3316391e-10, z: -0.000000009274115,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000031, z: 1.0000012}
+    - name: Cloack Back3
+      parentName: Cloack Back2
+      position: {x: 1.04773785e-11, y: 0.0028038414, z: 4.5263732e-10}
+      rotation: {x: -0, y: 9.668718e-10, z: -0.00000000676921, w: 1}
+      scale: {x: 1.0000007, y: 1.0000025, z: 1.0000026}
+    - name: Cloack Side.L
+      parentName: Cloack Back2
+      position: {x: -0.003087007, y: 0.0052187615, z: -0.0022540218}
+      rotation: {x: -0.093307786, y: -0.000942751, z: 0.027615577, w: 0.99525386}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000014}
+    - name: Cloack Front.L
+      parentName: Cloack Back2
+      position: {x: -0.0019081405, y: 0.004563111, z: -0.0042402195}
+      rotation: {x: -0.16503613, y: -0.00511415, z: -0.019129837, w: 0.98608875}
+      scale: {x: 1.0000007, y: 1.000004, z: 1.0000032}
+    - name: Cloack Side.R
+      parentName: Cloack Back2
+      position: {x: 0.0033130087, y: 0.005186982, z: -0.002115863}
+      rotation: {x: -0.09330778, y: 0.0009425017, z: -0.027615746, w: 0.99525386}
+      scale: {x: 1.0000014, y: 1.0000017, z: 1.0000036}
+    - name: Cloack Front.R
+      parentName: Cloack Back2
+      position: {x: 0.0019081428, y: 0.004563111, z: -0.004240218}
+      rotation: {x: -0.16503628, y: 0.005113923, z: 0.01912987, w: 0.9860887}
+      scale: {x: 1.0000007, y: 1.000003, z: 1.000002}
+    - name: Leg1.L
+      parentName: Waist
+      position: {x: -0.0011009794, y: 0.00042932888, z: -0.00006916656}
+      rotation: {x: 0.9991586, y: 0.009455783, z: 0.0103127975, w: 0.038552225}
+      scale: {x: 0.9999998, y: 1.0000017, z: 1.0000327}
+    - name: Leg2.L
+      parentName: Leg1.L
+      position: {x: -3.7252902e-11, y: 0.0023734127, z: -1.2107193e-10}
+      rotation: {x: 0.081636176, y: 0.00039186009, z: 0.010736489, w: 0.9966043}
+      scale: {x: 1.0000004, y: 1.0000038, z: 0.9999969}
+    - name: Foot.L
+      parentName: Leg2.L
+      position: {x: -1.3969838e-11, y: 0.0034257935, z: -1.2340023e-10}
+      rotation: {x: -0.41516605, y: -0.00000010823713, z: -0.008573032, w: 0.9097053}
+      scale: {x: 0.9999963, y: 1.0000447, z: 0.9999602}
+    - name: Leg1.R
+      parentName: Waist
+      position: {x: 0.0011009794, y: 0.00042932766, z: -0.00006916656}
+      rotation: {x: 0.9991586, y: -0.009455783, z: -0.010312772, w: 0.038552225}
+      scale: {x: 1.0000001, y: 1.0000014, z: 1.0000316}
+    - name: Leg2.R
+      parentName: Leg1.R
+      position: {x: -1.5832484e-10, y: 0.0023734123, z: -7.4505804e-11}
+      rotation: {x: 0.081636176, y: -0.00039181844, z: -0.0107364785, w: 0.9966043}
+      scale: {x: 1, y: 1.0000055, z: 0.99999565}
+    - name: Foot.R
+      parentName: Leg2.R
+      position: {x: -1.3504177e-10, y: 0.0034257933, z: -5.5879353e-11}
+      rotation: {x: -0.41516617, y: 0.000000042287862, z: 0.008573025, w: 0.9097052}
+      scale: {x: 0.9999941, y: 1.0000455, z: 0.9999637}
+    - name: Arm Control.L
+      parentName: body control
+      position: {x: -0.0032709804, y: 0.0017464784, z: 0.00030946924}
+      rotation: {x: 0.46345106, y: 0.53405344, z: 0.5340539, w: 0.46345064}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: IK Hand.L
+      parentName: Arm Control.L
+      position: {x: 0.00019604852, y: 0.0012424226, z: 0.0019756549}
+      rotation: {x: -0.00000007450579, y: 0.0049286024, z: 0.000000029802315, w: 0.99998784}
+      scale: {x: 1.0000004, y: 1.0000026, z: 1.0000001}
+    - name: Arm Control.R
+      parentName: body control
+      position: {x: 0.003621813, y: 0.0018646627, z: 0.00038527898}
+      rotation: {x: -0.4634511, y: 0.5340534, z: 0.53405386, w: -0.46345067}
+      scale: {x: 1.0000011, y: 1.0000001, z: 1.0000001}
+    - name: IK Hand.R
+      parentName: Arm Control.R
+      position: {x: -0.00019604816, y: 0.0012424228, z: 0.0019756544}
+      rotation: {x: -0, y: -0.0049286033, z: 0.000000014901159, w: 0.99998784}
+      scale: {x: 1.0000011, y: 1.0000024, z: 0.99999934}
+    - name: Bas Attachment
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Beanie
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Body
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Bottle Holder
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Cloack
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Goggles
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Hair
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Head
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bas Palm
+      parentName: Bas Rework(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
