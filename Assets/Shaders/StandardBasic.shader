@@ -21,7 +21,11 @@ Shader "Custom/Standard/MyStandard"
         [Toggle]_ROUGNESS("Smooth is Roughness?", float) = 0
         [KeywordEnum(None, FirstR, FirstG)] _METAL("Metallic source?", float) = 0
         [KeywordEnum(None, AO, FirstB, FirstG, AlbedoA)] _AO("Occlusion source?", float) = 0
+        _ShowMainMaps("Main Maps", int) = 1
+        _ShowRim("Rim", int) = 1
+        _ShowShiny("Mettalic & Gloss Maps", int) = 1
     }
+    CustomEditor "StandardBasicEditor"
     SubShader
     {
         Tags { "RenderType"="Opaque" }
@@ -41,8 +45,8 @@ Shader "Custom/Standard/MyStandard"
 
         struct Input
         {
-            	float2 uv_MainTex;
-		float3 viewDir;
+            float2 uv_MainTex;
+		    float3 viewDir;
         };
 
         half4 _Color;
@@ -76,6 +80,8 @@ Shader "Custom/Standard/MyStandard"
                 o.Metallic = shiny.r * _Metallic;
             #elif defined(_METAL_FIRSTG)
                 o.Metallic = shiny.g * _Metallic;
+            #else 
+                o.Metallic = _Metallic;
             #endif
             
             //Smooth
