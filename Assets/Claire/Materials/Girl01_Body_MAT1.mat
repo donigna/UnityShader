@@ -91,7 +91,7 @@ Material:
     - _DissolveLine: 0.1
     - _DissolveScale: 1
     - _DstBlend: 0
-    - _Gloss: 2
+    - _Gloss: 7
     - _GlossMapScale: 1
     - _GlossSmothness: 2
     - _Glossiness: 0
@@ -101,7 +101,7 @@ Material:
     - _Mode: 0
     - _NormalStrength: 1
     - _OcclusionStrength: 1
-    - _Outline: 0.01
+    - _Outline: 0.0053
     - _Parallax: 0.02
     - _RimPower: 0
     - _RimSmooth: 0.5
