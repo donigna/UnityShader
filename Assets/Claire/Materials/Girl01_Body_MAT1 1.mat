@@ -7,16 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Girl01_Body_MAT1
-  m_Shader: {fileID: 4800000, guid: 77a03781846ee164ba84c51eb9f09b31, type: 3}
+  m_Name: Girl01_Body_MAT1 1
+  m_Shader: {fileID: 4800000, guid: 65dd8a9ba8dd37a43bd56b53fe78765d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _AO_NONE
-  - _METAL_NONE
-  - _NORMALMAP
+  m_ValidKeywords: []
   m_InvalidKeywords:
-  - _SMOOTH_NONE
+  - _NORMALMAP
   - _SPECGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -86,7 +83,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AO: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _Cutout: 0.5
@@ -94,14 +90,16 @@ Material:
     - _DissolveAmount: -0
     - _DissolveLine: 0.1
     - _DissolveScale: 1
+    - _Distortion: 0.4
     - _DstBlend: 0
     - _Gloss: 7
     - _GlossMapScale: 1
+    - _GlossSize: 0.781
+    - _GlossSmoothness: 0.562
     - _GlossSmothness: 2
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _METAL: 0
-    - _Metallic: 0.35
+    - _Metallic: 0.623
     - _Mix: 0
     - _Mode: 0
     - _NormalStrength: 1
@@ -109,31 +107,28 @@ Material:
     - _OcclusionStrength: 1
     - _Outline: 0.0053
     - _Parallax: 0.02
-    - _ROUGNESS: 0
-    - _RimPower: 0
-    - _RimSmooth: 0.5
-    - _SMOOTH: 0
+    - _RimPower: 0.58
+    - _RimSmooth: 0.658
     - _ShadowSmooth: 0.5
-    - _ShowMainMaps: 1
-    - _ShowRim: 1
-    - _ShowShiny: 1
+    - _SideRimSize: 0.223
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Thresh: 0.36
+    - _Threshold: 1.33
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _AddColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.6666667}
+    - _Color: {r: 0.28934765, g: 0.9685534, b: 0.53875744, a: 0.41960785}
     - _DissolveLineColor: {r: 0, g: 0.5858407, b: 1, a: 1}
     - _EmissionColor: {r: 2, g: 2, b: 2, a: 1}
     - _EmissionColor1: {r: 0.7062477, g: 0.028871633, b: 0.044602606, a: 1}
     - _EmissionColor2: {r: 0.21938615, g: 1.6815424, b: 0.14277221, a: 1}
     - _EmissionColor3: {r: 0, g: 0.15226255, b: 9.135632, a: 1}
     - _GlossColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowColor: {r: 0.8930817, g: 0.8580487, b: 0.7386179, a: 1}
+    - _RimColor: {r: 0.98742133, g: 0.70485735, b: 0.70485735, a: 1}
+    - _ShadowColor: {r: 1, g: 0.64465404, b: 0.94077575, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
