@@ -63,19 +63,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d9dcbce624d10d4a8615395edb8851e, type: 3}
   m_Name: ShadowGradient
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
   mix:
     overrideState: 1
-    value: 0.603
+    value: 0.227
   gradient:
     overrideState: 1
     value:
       serializedVersion: 2
-      key0: {r: 1, g: 0.059748232, b: 0.059748232, a: 1}
-      key1: {r: 0.17295581, g: 0.40421286, b: 1, a: 1}
+      key0: {r: 0.7589701, g: 1, b: 0.54402506, a: 1}
+      key1: {r: 0.17295581, g: 0.40421286, b: 1, a: 0.30980393}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -288,7 +288,7 @@ MonoBehaviour:
     value: {fileID: 0}
     defaultState: 1
   intensity:
-    overrideState: 1
+    overrideState: 0
     value: 0
   fastMode:
     overrideState: 0
