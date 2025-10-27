@@ -8,16 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Girl01_Body_MAT1
-  m_Shader: {fileID: 4800000, guid: 77a03781846ee164ba84c51eb9f09b31, type: 3}
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _NORMALMAP
+  - _SPECGLOSSMAP
+  m_InvalidKeywords:
   - _AO_NONE
   - _METAL_NONE
-  - _NORMALMAP
-  m_InvalidKeywords:
   - _SMOOTH_NONE
-  - _SPECGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -77,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 5ec90beeaf552dd48a2fdd3347b2b822, type: 3}
+        m_Texture: {fileID: 2800000, guid: 84d634b3c021090478d4218e2192e150, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecMap:
@@ -96,9 +96,9 @@ Material:
     - _DissolveScale: 1
     - _DstBlend: 0
     - _Gloss: 7
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0.338
     - _GlossSmothness: 2
-    - _Glossiness: 1
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _METAL: 0
     - _Metallic: 0.35
@@ -114,6 +114,7 @@ Material:
     - _RimSmooth: 0.5
     - _SMOOTH: 0
     - _ShadowSmooth: 0.5
+    - _Shininess: 0.078125
     - _ShowMainMaps: 1
     - _ShowRim: 1
     - _ShowShiny: 1
