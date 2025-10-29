@@ -5,10 +5,13 @@ using UnityEngine;
 public class TexGenerator : EditorWindow
 {
     public enum Res { x512 = 512, x1024 = 1024, x2048 = 2048 }
+    public enum OutputType { Albedo = 0, Normal = 1 }
     private const string WARNING = "You need to drag a material into the material field!";
 
     public Material material;
     public Res resolution = Res.x1024;
+    public OutputType outputType;
+
 
     private void OnGUI()
     {
@@ -21,6 +24,8 @@ public class TexGenerator : EditorWindow
         material = EditorGUILayout.ObjectField("Material", material, typeof(Material), false, GUILayout.MinWidth(350)) as Material;
 
         resolution = (Res)EditorGUILayout.EnumPopup("Output Resolution", resolution);
+
+        outputType = (OutputType)EditorGUILayout.EnumPopup("Output Type", outputType);
 
         EditorGUILayout.Space();
         if (GUILayout.Button("Generate") && material)
@@ -38,7 +43,7 @@ public class TexGenerator : EditorWindow
         if (!string.IsNullOrEmpty(path))
         {
             RenderTexture tempRT = RenderTexture.GetTemporary((int)resolution, (int)resolution);
-            Graphics.Blit(Texture2D.blackTexture, tempRT, material);
+            Graphics.Blit(Texture2D.blackTexture, tempRT, material, (int)outputType); ;
 
             Texture2D output = new Texture2D(tempRT.width, tempRT.height, TextureFormat.RGBA32, false);
             RenderTexture.active = tempRT;

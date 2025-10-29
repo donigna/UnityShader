@@ -25,6 +25,10 @@ Material:
     m_TexEnvs:
     - _BlendTex:
         m_Texture: {fileID: 2800000, guid: 38633818bd673544b9415167fa36a322, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _BlendTexBump:
+        m_Texture: {fileID: 2800000, guid: 31fe9886c34989846a6ddfe313dd0f8d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -71,9 +75,13 @@ Material:
         m_Texture: {fileID: 2800000, guid: c8396d9d2f7e0de47a46c6b2b2e0f31e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TexBump:
+        m_Texture: {fileID: 2800000, guid: 761ab960347426845a003aa829150b03, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BlendPower: 1.33
+    - _BlendPower: 0.82
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
