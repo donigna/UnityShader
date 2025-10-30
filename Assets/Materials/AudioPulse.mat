@@ -72,7 +72,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Radius: 0.36
+    - _Radius: 0.29
     - _Smooth: 0.001
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -80,11 +80,11 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BGColor: {r: 0.2264151, g: 0, b: 0.21196315, a: 1}
+    - _BGColor: {r: 0, g: 0.0641221, b: 0.22745098, a: 1}
     - _Blend1: {r: 1, g: 1, b: 1, a: 1}
     - _Blend2: {r: 1, g: 1, b: 1, a: 1}
     - _Blend3: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.51956004, g: 0.6029085, b: 0.8930817, a: 1}
+    - _Color: {r: 0.43271616, g: 0.899371, b: 0.8304097, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _Color3: {r: 1, g: 1, b: 1, a: 1}
