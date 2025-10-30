@@ -16,6 +16,15 @@ MonoBehaviour:
   enabled:
     overrideState: 1
     value: 1
+  height:
+    overrideState: 1
+    value: 720
+  color:
+    overrideState: 1
+    value: {r: 0.48427665, g: 0.48275375, b: 0.48275375, a: 0.8117647}
+  speed:
+    overrideState: 1
+    value: 0.05
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
