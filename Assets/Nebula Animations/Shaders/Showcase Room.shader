@@ -37,7 +37,7 @@ Shader "Showcase Room"
 		ENDCG
 	}
 	Fallback "Diffuse"
-	CustomEditor "ASEMaterialInspector"
+	// CustomEditor "ASEMaterialInspector"
 }
 /*ASEBEGIN
 Version=18935

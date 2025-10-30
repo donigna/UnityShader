@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.46169513, g: 0.5124164, b: 0.58993304, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: c9d605076e1726e4796db748f2d4f67d, type: 2}
+  sharedProfile: {fileID: 0}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -632,7 +632,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 537a79c4fbc733d4980d724579d8d941, type: 2}
+      objectReference: {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
     - target: {fileID: 919132149155446097, guid: b4723f5a1ecd67a43815f60bc68588d1,
         type: 3}
       propertyPath: m_Name
@@ -727,6 +727,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c2ba6eac82de0ff45b36d8489dc0e86e,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: c2ba6eac82de0ff45b36d8489dc0e86e,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[18]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
     - target: {fileID: 919132149155446097, guid: c2ba6eac82de0ff45b36d8489dc0e86e,
         type: 3}
       propertyPath: m_Name
@@ -820,7 +830,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 93ec604941461b84cb12374565a4d468, type: 2}
+  - {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1342,7 +1352,7 @@ PrefabInstance:
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9d4a2eb24a31cbe449252b9d6f8caccc, type: 2}
+      objectReference: {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
     - target: {fileID: -7511558181221131132, guid: dc151c47a5bd2e64e873177c2ceaab58,
         type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
@@ -1748,7 +1758,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7c480a3bb45cf2d49bf5c8424f65df93, type: 2}
+  - {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
