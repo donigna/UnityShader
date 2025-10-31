@@ -8,15 +8,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Girl01_Body_MAT1
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 8c66783740fc9eb43afe7bb1e90635a8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _EMISSION
-  - _NORMALMAP
+  - _INVERT_SCATTER
   m_InvalidKeywords:
   - _AO_NONE
+  - _EMISSION
   - _METAL_NONE
+  - _NORMALMAP
   - _SMOOTH_NONE
   - _SPECGLOSSMAP
   m_LightmapFlags: 2
@@ -99,8 +100,9 @@ Material:
     - _Gloss: 7
     - _GlossMapScale: 0.338
     - _GlossSmothness: 2
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
+    - _InvertScatter: 1
     - _METAL: 0
     - _Metallic: 0.35
     - _Mix: 0
@@ -114,6 +116,8 @@ Material:
     - _RimPower: 0
     - _RimSmooth: 0.5
     - _SMOOTH: 0
+    - _ScatterExp: 0.9
+    - _ScatterGain: 0.76
     - _ShadowSmooth: 0.5
     - _Shininess: 0.078125
     - _ShowMainMaps: 1
@@ -123,6 +127,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Thresh: 0.36
+    - _Threshold: 0.75
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
