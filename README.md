@@ -300,6 +300,8 @@ Below are detailed descriptions of each shader effect, with corresponding GIF de
 
 ### 🎨 Color Correction
 
+![Subsurface Scattering](GIF/Color%20Correction.gif)
+
 **Description:** A comprehensive color correction shader that provides professional-grade color grading tools for adjusting the visual appearance of textures and materials. This shader offers saturation, brightness, and contrast controls, along with advanced RGB channel mixing for color grading effects like color shifts, desaturation, and stylistic color transformations.
 
 **Shader File:** `Assets/Shaders/ColorCorrection.shader`
