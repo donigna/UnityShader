@@ -273,6 +273,57 @@ Below are detailed descriptions of each shader effect, with corresponding GIF de
 
 ---
 
+### 🎯 Raymarching 3D Shapes
+
+![Raymarching](Raymarching.png)
+
+**Description:** A raymarching shader that renders procedural 3D shapes using signed distance fields (SDFs). This technique uses ray-marching algorithms to compute intersections with mathematical representations of shapes like spheres and boxes, creating smooth, mathematically perfect geometry without traditional mesh data. The shader supports multiple shapes, boolean operations, and real-time lighting.
+
+**Shader File:** `Assets/Shaders/UnlitShape3D.shader`
+
+**Features:**
+- Signed Distance Field (SDF) rendering
+- Multiple primitive shapes (spheres, boxes)
+- Boolean operations (union, subtraction, intersection)
+- Configurable raymarch steps and maximum distance
+- Real-time lighting and shadows
+- Background texture support
+- Normal calculation for proper lighting
+
+**Technical Details:**
+- Uses sphere and box SDF functions for primitive shapes
+- Iterative raymarching algorithm with configurable step count
+- Normal calculation via finite differences
+- Supports texture mapping using spherical UV coordinates
+
+---
+
+### 🎨 Color Correction
+
+**Description:** A comprehensive color correction shader that provides professional-grade color grading tools for adjusting the visual appearance of textures and materials. This shader offers saturation, brightness, and contrast controls, along with advanced RGB channel mixing for color grading effects like color shifts, desaturation, and stylistic color transformations.
+
+**Shader File:** `Assets/Shaders/ColorCorrection.shader`
+
+**Features:**
+- **Saturation Control:** Adjust color intensity from grayscale to fully saturated
+- **Brightness Control:** Global brightness adjustment for exposure correction
+- **Contrast Control:** Enhance or reduce image contrast
+- **RGB Channel Mixing:** Individual channel remapping for color grading
+  - Red channel mixing (R, G, B contributions)
+  - Green channel mixing (R, G, B contributions)
+  - Blue channel mixing (R, G, B contributions)
+- **Per-channel adjustments:** Fine-grained control over color transformations
+- **Post-processing compatible:** Can be used as a screen-space effect
+
+**Use Cases:**
+- Color grading and artistic styling
+- Exposure correction
+- Color temperature adjustment
+- Creating color filters and looks
+- Matching color palettes across scenes
+
+---
+
 ## Installation
 
 1. **Clone or download** this repository to your Unity project's Assets folder, or copy the desired shader files directly.
