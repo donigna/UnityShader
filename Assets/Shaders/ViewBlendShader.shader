@@ -26,7 +26,7 @@ Shader "Custom/ViewBlendShader"
         Tags { "RenderType"="TransparentCutout" "Queue"="Transparent" }
         LOD 200
         
-        Cull Back 
+        Cull Off
         CGPROGRAM
 
         #pragma surface surf Standard fullforwardshadow

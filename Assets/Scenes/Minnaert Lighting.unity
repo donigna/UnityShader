@@ -338,7 +338,9 @@ MonoBehaviour:
   m_BeforeTransparentBundles:
   - assemblyQualifiedName: ShadowGradient, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  m_BeforeStackBundles: []
+  m_BeforeStackBundles:
+  - assemblyQualifiedName: ColorReplace, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
   m_AfterStackBundles:
   - assemblyQualifiedName: DepthToon, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
@@ -1185,7 +1187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 80bb9477560138d48a8015e99edf6118, type: 2}
+  - {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1651,7 +1653,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7c480a3bb45cf2d49bf5c8424f65df93, type: 2}
+  - {fileID: 2100000, guid: 2024c9d80239d6848bd7c2dfdcb126f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -1,4 +1,4 @@
-Shader "Custom/SurfaceShader"
+Shader "Custom/ToonShader"
 {
     Properties
     {
@@ -17,25 +17,27 @@ Shader "Custom/SurfaceShader"
         _Cutout("Cutout", Range(0,1)) = 0.5
         [Space]
         [Header(Dissolve)]
+        [Toggle(_AUTO_DISSOLVE)] _AutoDissolve("Auto Dissolve", float) = 0
         _DissolveTex("Dissolve Tex", 2D) = "white" {}
-        _DissolveAmount("Dissolve Amount", Range(0,1)) = 0.5
-        _DissolveScale("Dissolve Scale", Float) = 1
-        _DissolveLine("Dissolve Line", Range(0,0.2)) = 0.1
-        [HDR]_DissolveLineColor("Dissolve Line Color", Color) = (1,1,1,1)
+        _DissolveAmount("Dissolve Amount", Range(0,1)) = 0.0
+        _DissolveScale("Dissolve Scale", Float) = 0
+        _DissolveLine("Dissolve Line", Range(0,0.2)) = 0.0
+        [HDR]_DissolveLineColor("Dissolve Line Color", Color) = (0,0,0,1)
         [Space]
         [Header(Gloss)]
         _SpecMap("Specular Map", 2D) = "white" {}
         _Gloss("Glossiness", Range(0, 20)) = 0
         _GlossSmothness("Gloss Smothness", Range(0, 2)) = 0
-        [HDR]_GlossColor("Gloss Color", Color) = (1,1,1,1)
+        [HDR]_GlossColor("Gloss Color", Color) = (0,0,0,1)
         [Space]
         [Header(Outline)]
-        _Outline("Outline Width", Range(0, 0.025)) = .003
+        _Outline("Outline Width", Range(0, 0.025)) = .000
     }
     SubShader
     {
         Tags { "RenderType"="TransparentCutout" "Queue"="Transparent" }
         LOD 200
+        Blend SrcAlpha OneMinusSrcAlpha
 
         Cull Front
         CGPROGRAM
@@ -57,6 +59,8 @@ Shader "Custom/SurfaceShader"
         };
 
         void surf(Input IN, inout SurfaceOutput o){
+            if(_Outline <= 0.0001)
+                clip(-1);
             o.Emission = Black;
         }
         ENDCG
@@ -67,6 +71,7 @@ Shader "Custom/SurfaceShader"
         #include "ToonShader.cginc"
 
         #pragma surface surf Toon
+        #pragma shader_feature_local _AUTO_DISSOLVE
 
         half _Thresh;
         half _ShadowSmooth;
@@ -85,7 +90,6 @@ Shader "Custom/SurfaceShader"
             float2 uv_MainTex;
             float3 viewDir;
         };
-        
 
         fixed4 _Color;
         float _NormalStrength;
@@ -99,7 +103,7 @@ Shader "Custom/SurfaceShader"
         half _DissolveScale;
         half _DissolveLine;
         half3 _DissolveLineColor;
-
+        half _AutoDissolve;
         void surf (Input IN, inout SurfaceOutput o)
         {
             InitLightingToon(_Thresh, _ShadowSmooth, _ShadowColor, _Gloss, _GlossSmothness, _GlossColor);
@@ -115,8 +119,11 @@ Shader "Custom/SurfaceShader"
             o.Emission += _RimColor * smoothstep(0.5, max(0.5, _RimSmooth), d);
             // Dissolve
             half4 noise = tex2D(_DissolveTex, IN.uv_MainTex * _DissolveScale);
-            clip(noise.r - _DissolveAmount);
-            o.Emission += step(noise.r, _DissolveAmount + _DissolveLine) *step(0.001, _DissolveAmount) * _DissolveLineColor;
+            half dissolve = _DissolveAmount;
+            if(_AutoDissolve == 1)
+                dissolve = frac(sin(_Time.y * 1) * 0.5 + 0.5);
+            clip(noise.r - dissolve);
+            o.Emission += step(noise.r, dissolve + _DissolveLine) *step(0.001, dissolve) * _DissolveLineColor;
             o.Specular = tex2D(_SpecMap, IN.uv_MainTex);
         }
         ENDCG

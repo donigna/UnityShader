@@ -87,7 +87,7 @@ Material:
     - _DissolveLine: 0.1
     - _DissolveScale: 1
     - _DstBlend: 10
-    - _Gloss: 20
+    - _Gloss: 0
     - _GlossMapScale: 1
     - _GlossSmothness: 0
     - _Glossiness: 0

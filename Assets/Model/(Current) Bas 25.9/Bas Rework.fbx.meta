@@ -3,7 +3,52 @@ guid: 5c71760b0c09f2f449081e7dd0396c76
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bas Attachment
+    second: {fileID: 2100000, guid: 8c2ec120e24f9dc4095ed0df519c6966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bas Hair
+    second: {fileID: 2100000, guid: f88783bbded41c24a87514c9d92d60eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bas Head
+    second: {fileID: 2100000, guid: e87d6df3098ffa8458b0d0e7142e5a85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bas Palm
+    second: {fileID: 2100000, guid: 6b89625543a85a5449f1d6a996b8fd55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: def2f0e335917c847ad190bcf383d6e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottle holder
+    second: {fileID: 2100000, guid: bb502744a81659b49bc5b7b2fb4d5321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Goggles
+    second: {fileID: 2100000, guid: ab969f48602b570448ba60e66d482b2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jubah
+    second: {fileID: 2100000, guid: f8ebb1d0ab7c77b4cb2e88fa838310a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Koplok
+    second: {fileID: 2100000, guid: d5b1ba036ff2bbe4ba71ac76dbe9054a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,80 +61,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Bas Armature|Bas | a. Idle' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'Eyelash mov'
-      has translation animation that will be discarded.\n\t'Eyelash2.L' has translation
-      animation that will be discarded.\n\t'Eyelash2.R' has translation animation
-      that will be discarded.\n\nClip 'Bas Armature|Bas | Chop' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'Chest' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'Eyelash2.L'
-      has translation animation that will be discarded.\n\t'Eyelash2.R' has translation
-      animation that will be discarded.\n\t'Foot.R' has scale animation that will
-      be discarded.\n\nClip 'Bas Armature|Bas | GH1' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'Chest' is inbetween humanoid transforms
-      and has rotation animation that will be discarded.\n\t'Eyelash mov' has translation
-      animation that will be discarded.\n\t'Eyelash2.L' has translation animation
-      that will be discarded.\n\t'Eyelash2.R' has translation animation that will
-      be discarded.\n\t'Leg1.L' has scale animation that will be discarded.\n\t'Foot.L'
-      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | PD1'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Eyelash
-      mov' has translation animation that will be discarded.\n\t'Eyelash2.L' has
-      translation animation that will be discarded.\n\t'Eyelash2.R' has translation
-      animation that will be discarded.\n\t'Leg1.L' has scale animation that will
-      be discarded.\n\t'Leg2.L' has scale animation that will be discarded.\n\t'Foot.L'
-      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
-      that will be discarded.\n\t'Leg2.R' has scale animation that will be discarded.\n\t'Foot.R'
-      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | Run'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Leg1.L'
-      has scale animation that will be discarded.\n\t'Leg2.L' has scale animation
-      that will be discarded.\n\t'Foot.L' has scale animation that will be discarded.\n\t'Leg1.R'
-      has scale animation that will be discarded.\n\t'Leg2.R' has scale animation
-      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
-      'Bas Armature|Bas | Run w Katana' has import animation warnings that might
-      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
-      retargeting quality.\n\t'Chest' is inbetween humanoid transforms and has rotation
-      animation that will be discarded.\n\t'Leg1.L' has scale animation that will
-      be discarded.\n\t'Leg2.L' has scale animation that will be discarded.\n\t'Foot.L'
-      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
-      that will be discarded.\n\t'Leg2.R' has scale animation that will be discarded.\n\t'Foot.R'
-      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | S1C1'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Eyelash
-      mov' has translation animation that will be discarded.\n\t'Eyelash2.L' has
-      translation animation that will be discarded.\n\t'Eyelash2.R' has translation
-      animation that will be discarded.\n\t'Leg1.L' has scale animation that will
-      be discarded.\n\t'Leg2.L' has scale animation that will be discarded.\n\t'Foot.L'
-      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
-      that will be discarded.\n\t'Leg2.R' has scale animation that will be discarded.\n\t'Foot.R'
-      has scale animation that will be discarded.\n\nClip 'Bas Armature|Bas | S1C2'
-      has import animation warnings that might lower retargeting quality:\nNote:
-      Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Leg1.L'
-      has scale animation that will be discarded.\n\t'Leg2.L' has scale animation
-      that will be discarded.\n\t'Foot.L' has scale animation that will be discarded.\n\t'Leg1.R'
-      has scale animation that will be discarded.\n\t'Leg2.R' has scale animation
-      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
-      'Bas Armature|Bas | S1C3' has import animation warnings that might lower retargeting
-      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Chest'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Leg2.L'
-      has scale animation that will be discarded.\n\t'Leg1.R' has scale animation
-      that will be discarded.\n\t'Foot.R' has scale animation that will be discarded.\n\nClip
-      'Bas Armature|Bas | Watering' has import animation warnings that might lower
-      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
-      quality.\n\t'Chest' is inbetween humanoid transforms and has rotation animation
-      that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0

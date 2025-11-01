@@ -120,15 +120,15 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AddColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0.28934765, g: 0.9685534, b: 0.53875744, a: 0.41960785}
+    - _Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
     - _DissolveLineColor: {r: 0, g: 0.5858407, b: 1, a: 1}
     - _EmissionColor: {r: 2, g: 2, b: 2, a: 1}
     - _EmissionColor1: {r: 0.7062477, g: 0.028871633, b: 0.044602606, a: 1}
     - _EmissionColor2: {r: 0.21938615, g: 1.6815424, b: 0.14277221, a: 1}
     - _EmissionColor3: {r: 0, g: 0.15226255, b: 9.135632, a: 1}
     - _GlossColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0.98742133, g: 0.70485735, b: 0.70485735, a: 1}
-    - _ShadowColor: {r: 1, g: 0.64465404, b: 0.94077575, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

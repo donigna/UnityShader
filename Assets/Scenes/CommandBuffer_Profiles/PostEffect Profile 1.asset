@@ -21,22 +21,22 @@ MonoBehaviour:
     value: 1
   Range:
     overrideState: 1
-    value: 1
+    value: 0.76
   Falloff:
     overrideState: 1
     value: 0
   Coverage:
     overrideState: 1
-    value: 0.77
+    value: 0.18
   Softness:
     overrideState: 1
     value: 0.31
   Height:
     overrideState: 1
-    value: 0.58
+    value: 1.28
   Width:
     overrideState: 1
-    value: 0
+    value: 1.7
   MainColor:
     overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}

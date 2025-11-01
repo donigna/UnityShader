@@ -32,16 +32,16 @@ MonoBehaviour:
     value: 1
   find:
     overrideState: 1
-    value: {r: 0.7568628, g: 0.28627452, b: 0.2509804, a: 1}
+    value: {r: 0.28627452, g: 0.20000002, b: 0.18431373, a: 1}
   replace:
     overrideState: 1
-    value: {r: 0.42712784, g: 0.12495544, b: 0.49056602, a: 1}
+    value: {r: 0.69600433, g: 0.36434466, b: 0.76729554, a: 1}
   threshold:
     overrideState: 1
     value: 0.35
   mix:
     overrideState: 1
-    value: 0.64
+    value: 1
   smooth:
     overrideState: 1
     value: 0
